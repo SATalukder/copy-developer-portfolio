@@ -3,6 +3,39 @@ body {
 
 }
 
+h1 {
+    font-size: 50px;
+}
+
 .Orange-cloar {
     color: orange;
+}
+
+.half-weidth {
+    width: 50%;
+    padding-left: 2%;
+
+}
+
+.half-weidth img {
+    width: 80%;
+}
+
+.flexible-contener {
+    display: flex;
+    padding-bottom: 170px;
+
+}
+
+.Link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.top-baner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
